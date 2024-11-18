@@ -9,4 +9,4 @@ COPY main.sh .
 
 RUN chmod a+x main.sh
 
-ENTRYPOINT ["/bin/bash", "-c", "bash /app/main"]
+ENTRYPOINT ["/bin/bash", "-c", "bash /app/main.sh"]
