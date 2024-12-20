@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-secret="d6JRnfEV64EofMSvzuFS"
-Server="nezha.kwxos.pp.ua"
-Spot="443"
-idu="469b6ed3-1223-40c9-9160-7c835b03c04c"
-
 if [ -n "$Server" ]; then
     echo "已设置Server,执行TZ"
     ARCH=$(uname -m)
