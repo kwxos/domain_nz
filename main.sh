@@ -31,9 +31,9 @@ if [ -n "$Server" ]; then
 cat << EOF > tzcon.yml
 client_secret: $secret
 debug: false
-disable_auto_update: false
+disable_auto_update: true
 disable_command_execute: false
-disable_force_update: false
+disable_force_update: true
 disable_nat: false
 disable_send_query: false
 gpu: false
